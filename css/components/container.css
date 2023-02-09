@@ -1,0 +1,38 @@
+.container {
+/* width: 900px; NE PAS METTRE SINON ça n'allait pas à la ligne */
+margin: 5vh 10vw;
+/*Permet que ce soit responsive, c'est un % mais par rapport à la taille de ma fenêtre de navigateur*/
+}
+
+.container h1{
+color: white;
+font-weight: bold;
+text-shadow: 0px 0px 10px rgba(0,0,0,1);
+font-size: 32px;
+}
+
+.container > h2{
+color: black;
+font-weight: bold;
+/* text-shadow: 0px 0px 10px rgba(0,0,0,1); */
+font-size: 24px;
+}
+
+
+.container > p{
+color: white;
+opacity: 0.7; /* plus joli que de mettre un gris*/
+font-size: 19px;
+margin: 34px 0px;
+}
+
+
+
+.container a{
+display: inline-block; /* Pour qu'il prenne mes margins du <p>*/
+color: white;
+background-color: rgb(28, 192, 77);
+padding: 20px 45px;
+border-radius: 30px;
+
+}

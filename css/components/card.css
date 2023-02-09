@@ -1,0 +1,28 @@
+.cards {
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: black;
+flex-wrap: wrap; /* Niiiice*/
+}
+
+.card {
+box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+margin: 10px auto;
+color: black;
+text-align: center;
+
+width: 150px;
+padding: 18px;
+}
+
+.card img {
+width: 40%;
+}
+
+.card p {
+  color: grey;
+  opacity: 0.7; /* plus joli que de mettre un gris*/
+  font-size: 15px;
+  margin: 15px 0px;
+}

@@ -1,0 +1,12 @@
+.social-media {
+display: flex;
+justify-content: center;
+}
+
+.social-media a{
+  color: greenyellow;
+  padding: 12px;
+  font-size: 40px;
+  /* padding-top: 40px; */
+}
+
